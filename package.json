@@ -1,0 +1,32 @@
+{
+  "name": "postmanager",
+  "version": "0.0.1",
+  "description": "Simple React-Native project with Facebook login",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabioAnsaldi/postmanager.git"
+  },
+  "dependencies": {
+    "native-base": "^2.3.9",
+    "react": "16.2.0",
+    "react-native": "0.53.3",
+    "react-native-facebook-login": "^1.6.0",
+    "react-navigation": "^1.1.2",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-merge-reducers": "0.0.2"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.0",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
